@@ -29,6 +29,8 @@ Before using BitbucketPS, you'll need to define your Bitbucket server URL.  You 
 
 ```powershell
 Set-ConfigServer "https://bitbucket.example.com"
+# corrected, renamed -> Set-BitBucketConfigServer
+Set-BitBucketConfigServer "https://bitbucket.org" 
 ```
 
 To use BitbucketPS:
